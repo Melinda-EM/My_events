@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  html {
+    background-color: antiquewhite;
+  }
+  
+  #navbar {
+    background-color: #8FC8F7;
+    width: auto;
+    height: 150px;
+    overflow: hidden;
+    display: flex;
+    border: gray solid;
+    margin: 20px;
+  }
+  
+  .image {
+    display: flex;
+    width: 1900px;
+    justify-content: space-between;
+  }
+  
+  .image .account {
+    justify-items: center;
+    margin-right: 10px;
+    margin-top: 50px;
+  }
+  
+  .logo {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    
+  }
+  
+  .account {
+    width: 50px;
+    display: flex;
+  }
+  
+  .menu-box {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 70px;
+  }
+  
+  .App {
+    display: block;
+    justify-content: left;
+  }
+  
+  .event {
+    padding-top: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+  }
+  
+  .event a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .title {
+    display: flex;
+  }
+  
+  .menu {
+    display: flex;
+    flex: 35%;
+  }
+  
+  figure {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  article a {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #28666e;
+  }
+  
+  /* styles.css (ou le nom de votre fichier CSS) */
+  
+  /* Style de la section d'affichage des événements */
+  .event-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Style de chaque carte d'événement */
+  .event-card {
+    width: 300px; /* Ajustez la largeur selon vos besoins */
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .event-card:hover {
+    transform: scale(1.05); /* Effet de zoom au survol */
+  }
+  
+  /* Style de l'image de l'événement */
+  .event-card figure {
+    margin: 0;
+    text-align: center;
+  }
+  
+  .event-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .event-details {
+    margin-top: 10px;
+  }
+  
+  .event-details h2 {
+    font-size: 1.2em;
+    margin: 0;
+  }
+  
+  .event-details p {
+    margin: 5px 0;
+  }
+  
+  .event-details a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.2s;
+  }
+  
+  .event-details a:hover {
+    color: #007bff;
+  }
+  
+  
+  .menu {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu select,
+  .menu input,
+  .menu button {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .menu select {
+    flex: 1;
+  }
+  
+  .menu input {
+    flex: 2;
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .title h1 {
+    font-size: 1.5em;
+  }
+  
+  .event-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* pagination */
+  .pagination {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .pagination button:hover {
+    background-color: #0056b3;
+  }
+  
+  .pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left-column {
+    flex: 1;
+  }
+  
+  .right-column {
+    flex: 2;
+  }
