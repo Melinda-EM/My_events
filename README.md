@@ -4,6 +4,10 @@ Ce projet a été conçu avec [Create React App](https://github.com/facebook/cre
 
 Projet utilisant l'API de Betaseries afin de regrouper l'ensemble des séries sous une forme plus adapté visuellement, possibilité de partager des séries avec ses amis.
 
+![Capture d'écran 2024-10-19 183630](https://github.com/user-attachments/assets/b3835686-59a9-403f-9e50-667fcc817ee8)
+![image](https://github.com/user-attachments/assets/c7e093ff-ea81-49fa-8e78-7729d028a1bb)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
